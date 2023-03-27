@@ -1,0 +1,28 @@
+ul {
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.list {
+    padding-left: 40px;
+    display: flex;
+    gap: 12px;
+}
+.listing {
+    display: flex;
+    flex-direction: column;
+}
+.item {
+    padding-top: 7px;
+}
+.coba {
+    display: flex;
+    align-items: center;
+}
+
+.check {
+    padding-top: 20px;
+}
