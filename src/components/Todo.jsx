@@ -21,8 +21,8 @@ const handleChange = (todo) => {
   return (
     <div className="todo">
       <div className="content">
-        <h2>To-do List</h2>
-        <p>~ Today i need to ~</p>
+        <h2>To-Do List</h2>
+        <p>~ Today i Need To ~</p>
         <TodoForm handleSubmit={handleSubmit} handleChange={handleChange}/>
       </div>
       <TodoList todos={todos}/>
